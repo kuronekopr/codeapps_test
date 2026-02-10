@@ -3,7 +3,7 @@ import { Header } from './components/Header';
 import { TimesheetGrid } from './components/TimesheetGrid';
 import { TimeEntryModal } from './components/TimeEntryModal';
 import { useTimesheet } from './hooks/useTimesheet';
-import { TimeEntry } from './types';
+import { TimeEntry } from '../types';
 
 export default function App() {
     const { entries, projects, user, currentWeekStart, addEntry, updateEntry, deleteEntry } = useTimesheet();

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { TimeEntry, Project, User } from '../types';
+import { TimeEntry, Project, User } from '../../types';
 
 const MOCK_PROJECTS: Project[] = [
     { id: '1', name: 'Website Redesign', color: 'bg-blue-500' },

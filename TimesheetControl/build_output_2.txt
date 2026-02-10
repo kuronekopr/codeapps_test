@@ -1,0 +1,40 @@
+
+> pcf-project@1.0.0 build
+> npm run build:css && pcf-scripts build
+
+
+> pcf-project@1.0.0 build:css
+> npx tailwindcss -i ./src/index.css -o ./TimesheetControl/css/output.css
+
+
+Rebuilding...
+
+Done in 183ms.
+[0:33:36] [build] Initializing...
+[0:33:36] [build] Validating manifest...
+[0:33:36] [build] Validating control...
+[0:33:37] [build] Generating manifest types...
+[0:33:37] [build] Generating design types...
+[0:33:37] [build] Running ESLint...
+[0:33:40] [build] Compiling and bundling control...
+[BABEL] Note: The code generator has deoptimised the styling of C:\Antigravity\codeapps_test\TimesheetControl\node_modules\react-dom\cjs\react-dom.development.js as it exceeds the max of 500KB.
+[Webpack stats]:
+asset [1m[32mbundle.js[39m[22m 1.64 MiB [1m[33m[compared for emit][39m[22m (name: main)
+orphan modules 1.65 MiB [1m[33m[orphan][39m[22m 1831 modules
+runtime modules 2.06 KiB 5 modules
+built modules 1.27 MiB [1m[33m[built][39m[22m
+  modules by path [1m./node_modules/framer-motion/dist/es/[39m[22m 297 KiB 145 modules
+  modules by path [1m./node_modules/@headlessui/react/dist/[39m[22m 64 KiB 49 modules
+  modules by path [1m./node_modules/popmotion/dist/es/[39m[22m 28.8 KiB 24 modules
+  modules by path [1m./node_modules/lucide-react/dist/esm/[39m[22m 10.2 KiB 12 modules
+  modules by path [1m./node_modules/style-value-types/dist/es/[39m[22m 7.01 KiB 10 modules
+  modules by path [1m./TimesheetControl/[39m[22m 17 KiB 6 modules
+  modules by path [1m./node_modules/react-dom/[39m[22m 745 KiB 6 modules
+  modules by path [1m./node_modules/framesync/dist/es/*.mjs[39m[22m 3.74 KiB 3 modules
+  modules by path [1m./node_modules/prop-types/[39m[22m 4.01 KiB
+    [1m./node_modules/prop-types/checkPropTypes.js[39m[22m 3.64 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 2 modules
+  + 5 modules
+webpack 5.105.0 compiled [1m[32msuccessfully[39m[22m in 9881 ms
+[0:33:51] [build] Generating build outputs...
+[0:33:51] [build] Succeeded

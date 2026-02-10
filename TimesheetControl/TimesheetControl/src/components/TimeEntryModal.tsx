@@ -1,7 +1,7 @@
 import React from 'react';
 import { Dialog } from '@headlessui/react';
 import { useForm } from 'react-hook-form';
-import { TimeEntry, Project } from '../types';
+import { TimeEntry, Project } from '../../types';
 import { X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -16,12 +16,12 @@ interface TimeEntryModalProps {
     projects: Project[];
 }
 
-type FormData = {
+interface FormData {
     projectId: string;
     taskId: string;
     hours: number;
     description: string;
-};
+}
 
 export const TimeEntryModal: React.FC<TimeEntryModalProps> = ({
     isOpen,

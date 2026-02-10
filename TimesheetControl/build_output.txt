@@ -1,0 +1,224 @@
+
+> pcf-project@1.0.0 build
+> npm run build:css && pcf-scripts build
+
+
+> pcf-project@1.0.0 build:css
+> npx tailwindcss -i ./src/index.css -o ./TimesheetControl/css/output.css
+
+
+Rebuilding...
+
+Done in 178ms.
+[0:32:15] [build] Initializing...
+[0:32:15] [build] Validating manifest...
+[0:32:15] [build] Validating control...
+[0:32:16] [build] Generating manifest types...
+[0:32:16] [build] Generating design types...
+[0:32:16] [build] Running ESLint...
+[0:32:19] [build] Compiling and bundling control...
+[BABEL] Note: The code generator has deoptimised the styling of C:\Antigravity\codeapps_test\TimesheetControl\node_modules\react-dom\cjs\react-dom.development.js as it exceeds the max of 500KB.
+[Webpack stats]:
+asset [1m[32mbundle.js[39m[22m 1.64 MiB [1m[33m[compared for emit][39m[22m (name: main)
+orphan modules 1.65 MiB [1m[33m[orphan][39m[22m 1831 modules
+runtime modules 2.06 KiB 5 modules
+built modules 1.27 MiB [1m[33m[built][39m[22m
+  modules by path [1m./node_modules/framer-motion/dist/es/[39m[22m 297 KiB 145 modules
+  modules by path [1m./node_modules/@headlessui/react/dist/[39m[22m 64 KiB 49 modules
+  modules by path [1m./node_modules/popmotion/dist/es/[39m[22m 28.8 KiB 24 modules
+  modules by path [1m./node_modules/lucide-react/dist/esm/[39m[22m 10.2 KiB 12 modules
+  modules by path [1m./node_modules/style-value-types/dist/es/[39m[22m 7.01 KiB 10 modules
+  modules by path [1m./TimesheetControl/[39m[22m 17 KiB 6 modules
+  modules by path [1m./node_modules/react-dom/[39m[22m 745 KiB 6 modules
+  modules by path [1m./node_modules/framesync/dist/es/*.mjs[39m[22m 3.74 KiB 3 modules
+  modules by path [1m./node_modules/prop-types/[39m[22m 4.01 KiB
+    [1m./node_modules/prop-types/checkPropTypes.js[39m[22m 3.64 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    + 2 modules
+  + 5 modules
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\App.tsx[39m[22m
+[1m./TimesheetControl/src/App.tsx[39m[22m [1m[32m1:7-12[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\App.tsx(1,8)
+      TS1259: Module '"C:\\Antigravity\\codeapps_test\\TimesheetControl\\node_modules\\@types\\react\\index"' can only be default-imported using the 'allowSyntheticDefaultImports' flag[39m[22m
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\App.tsx[39m[22m
+[1m./TimesheetControl/src/App.tsx[39m[22m [1m[32m6:26-35[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\App.tsx(6,27)
+      TS2307: Cannot find module './types' or its corresponding type declarations.[39m[22m
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\Header.tsx[39m[22m
+[1m./TimesheetControl/src/components/Header.tsx[39m[22m [1m[32m1:7-12[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\Header.tsx(1,8)
+      TS1259: Module '"C:\\Antigravity\\codeapps_test\\TimesheetControl\\node_modules\\@types\\react\\index"' can only be default-imported using the 'allowSyntheticDefaultImports' flag[39m[22m
+ @ ./TimesheetControl/src/App.tsx 2:0-45 45:38-44
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\Header.tsx[39m[22m
+[1m./TimesheetControl/src/components/Header.tsx[39m[22m [1m[32m3:21-31[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\Header.tsx(3,22)
+      TS2307: Cannot find module '../types' or its corresponding type declarations.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 2:0-45 45:38-44
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\Header.tsx[39m[22m
+[1m./TimesheetControl/src/components/Header.tsx[39m[22m [1m[32m10:48-52[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\Header.tsx(10,49)
+      TS7031: Binding element 'user' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 2:0-45 45:38-44
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\Header.tsx[39m[22m
+[1m./TimesheetControl/src/components/Header.tsx[39m[22m [1m[32m10:54-65[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\Header.tsx(10,55)
+      TS7031: Binding element 'currentDate' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 2:0-45 45:38-44
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimeEntryModal.tsx[39m[22m [1m[32m1:7-12[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx(1,8)
+      TS1259: Module '"C:\\Antigravity\\codeapps_test\\TimesheetControl\\node_modules\\@types\\react\\index"' can only be default-imported using the 'allowSyntheticDefaultImports' flag[39m[22m
+ @ ./TimesheetControl/src/App.tsx 4:0-61 65:41-55
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimeEntryModal.tsx[39m[22m [1m[32m4:35-45[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx(4,36)
+      TS2307: Cannot find module '../types' or its corresponding type declarations.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 4:0-61 65:41-55
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimeEntryModal.tsx[39m[22m [1m[32m27:4-10[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx(27,5)
+      TS7031: Binding element 'isOpen' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 4:0-61 65:41-55
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimeEntryModal.tsx[39m[22m [1m[32m28:4-11[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx(28,5)
+      TS7031: Binding element 'onClose' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 4:0-61 65:41-55
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimeEntryModal.tsx[39m[22m [1m[32m29:4-10[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx(29,5)
+      TS7031: Binding element 'onSave' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 4:0-61 65:41-55
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimeEntryModal.tsx[39m[22m [1m[32m30:4-12[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx(30,5)
+      TS7031: Binding element 'onDelete' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 4:0-61 65:41-55
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimeEntryModal.tsx[39m[22m [1m[32m31:4-16[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx(31,5)
+      TS7031: Binding element 'initialEntry' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 4:0-61 65:41-55
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimeEntryModal.tsx[39m[22m [1m[32m32:4-20[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx(32,5)
+      TS7031: Binding element 'initialProjectId' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 4:0-61 65:41-55
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimeEntryModal.tsx[39m[22m [1m[32m33:4-8[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx(33,5)
+      TS7031: Binding element 'date' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 4:0-61 65:41-55
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimeEntryModal.tsx[39m[22m [1m[32m34:4-12[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx(34,5)
+      TS7031: Binding element 'projects' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 4:0-61 65:41-55
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimeEntryModal.tsx[39m[22m [1m[32m107:54-55[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx(107,55)
+      TS7006: Parameter 'p' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 4:0-61 65:41-55
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimesheetGrid.tsx[39m[22m [1m[32m1:7-12[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx(1,8)
+      TS1259: Module '"C:\\Antigravity\\codeapps_test\\TimesheetControl\\node_modules\\@types\\react\\index"' can only be default-imported using the 'allowSyntheticDefaultImports' flag[39m[22m
+ @ ./TimesheetControl/src/App.tsx 3:0-59 60:93-106
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimesheetGrid.tsx[39m[22m [1m[32m2:35-45[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx(2,36)
+      TS2307: Cannot find module '../types' or its corresponding type declarations.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 3:0-59 60:93-106
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimesheetGrid.tsx[39m[22m [1m[32m16:4-11[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx(16,5)
+      TS7031: Binding element 'entries' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 3:0-59 60:93-106
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimesheetGrid.tsx[39m[22m [1m[32m17:4-12[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx(17,5)
+      TS7031: Binding element 'projects' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 3:0-59 60:93-106
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimesheetGrid.tsx[39m[22m [1m[32m18:4-20[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx(18,5)
+      TS7031: Binding element 'currentWeekStart' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 3:0-59 60:93-106
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimesheetGrid.tsx[39m[22m [1m[32m19:4-15[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx(19,5)
+      TS7031: Binding element 'onCellClick' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 3:0-59 60:93-106
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimesheetGrid.tsx[39m[22m [1m[32m48:31-38[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx(48,32)
+      TS7006: Parameter 'project' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 3:0-59 60:93-106
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx[39m[22m
+[1m./TimesheetControl/src/components/TimesheetGrid.tsx[39m[22m [1m[32m58:55-56[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx(58,56)
+      TS7006: Parameter 'e' implicitly has an 'any' type.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 3:0-59 60:93-106
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[31mERROR[39m[22m in [1mC:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\hooks\useTimesheet.ts[39m[22m
+[1m./TimesheetControl/src/hooks/useTimesheet.ts[39m[22m [1m[32m2:41-51[39m[22m
+[1m[tsl] [1m[31mERROR[39m[22m[1m in C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\hooks\useTimesheet.ts(2,42)
+      TS2307: Cannot find module '../types' or its corresponding type declarations.[39m[22m
+ @ ./TimesheetControl/src/App.tsx 5:0-52 15:6-18
+ @ ./TimesheetControl/index.ts 1:0-28 26:44-47
+
+[1m[33m26 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.[39m[22m
+
+webpack 5.105.0 compiled with [1m[31m26 errors[39m[22m in 9833 ms
+[31m[0:32:29] [build] Failed:[0m
+[31m[pcf-1033] [Error] An error occurred compiling or bundling the control.[0m

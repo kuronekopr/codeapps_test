@@ -1,0 +1,7 @@
+Connected as Minagawa@mxk00015.onmicrosoft.com
+Connected to... env_codeapps
+
+Solution Importing...
+
+Solution Imported successfully.
+Translated labels for the following languages could not be imported because they have not been enabled for this organization: 1033

@@ -14,7 +14,6 @@
     "refreshTypes": "pcf-scripts refreshTypes"
   },
   "dependencies": {
-    "@fluentui/react-components": "9.68.0",
     "@headlessui/react": "^1.7.19",
     "clsx": "^2.1.1",
     "framer-motion": "^6.5.1",

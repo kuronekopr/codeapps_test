@@ -1,0 +1,15 @@
+Connected as Minagawa@mxk00015.onmicrosoft.com
+Connected to... env_codeapps
+
+Solution Importing...
+Microsoft PowerPlatform CLI
+Version: 2.2.1+g666525f (.NET Framework 4.8.9222.0)
+Online documentation: https://aka.ms/PowerPlatformCLI
+Feedback, Suggestions, Issues: https://github.com/microsoft/powerplatform-build-tools/discussions
+
+Error: Import Solution Failed: CustomControl with name  failed to import with error: CustomControls with Name CodeApps.TimesheetControl Import Solution Failed with following error: platform library fluent_9_68_0 with version 9.68.0 is not supported by the platform.
+    Import Solution Failed: CustomControl with name  failed to import with error: CustomControls with Name CodeApps.TimesheetControl Import Solution Failed with following error: platform library fluent_9_68_0 with version 9.68.0 is not supported by the platform.
+
+Import Solution Failed: CustomControl with name  failed to import with error: CustomControls with Name CodeApps.TimesheetControl Import Solution Failed with following error: platform library fluent_9_68_0 with version 9.68.0 is not supported by the platform.
+Import Solution Failed: CustomControl with name  failed to import with error: CustomControls with Name CodeApps.TimesheetControl Import Solution Failed with following error: platform library fluent_9_68_0 with version 9.68.0 is not supported by the platform.
+

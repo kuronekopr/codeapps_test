@@ -1,5 +1,5 @@
 import React from 'react';
-import { TimeEntry, Project } from '../types';
+import { TimeEntry, Project } from '../../types';
 import { Plus } from 'lucide-react';
 import { motion } from 'framer-motion';
 

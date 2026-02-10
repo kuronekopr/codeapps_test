@@ -1,6 +1,6 @@
 import React from 'react';
 import { Calendar, User as UserIcon, Bell } from 'lucide-react';
-import { User } from '../types';
+import { User } from '../../types';
 
 interface HeaderProps {
     user: User;

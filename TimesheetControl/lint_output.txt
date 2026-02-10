@@ -1,0 +1,98 @@
+
+> pcf-project@1.0.0 lint
+> pcf-scripts lint
+
+[0:25:05] [lint] Initializing...
+[0:25:05] [lint] Running ESLint...
+[31m[0:25:08] [lint] Failed:[0m
+[31m[pcf-1065] [Error] ESLint validation error: 
+C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\App.tsx
+   9:32   error  Unsafe object destructuring of a property with an error typed value                                 @typescript-eslint/no-unsafe-assignment
+  12:12   error  Unsafe array destructuring of a tuple element with an error typed value                             @typescript-eslint/no-unsafe-assignment
+  12:56   error  'TimeEntry' is an 'error' type that acts as 'any' and overrides all other types in this union type  @typescript-eslint/no-redundant-type-constituents
+  20:15   error  Unsafe assignment of an error typed value                                                           @typescript-eslint/no-unsafe-assignment
+  20:51   error  Unsafe member access .date on an `error` typed value                                                @typescript-eslint/no-unsafe-member-access
+  20:70   error  Unsafe member access .projectId on an `error` typed value                                           @typescript-eslint/no-unsafe-member-access
+  43:31   error  Unsafe assignment of an error typed value                                                           @typescript-eslint/no-unsafe-assignment
+  50:113  error  Unsafe return of a value of type error                                                              @typescript-eslint/no-unsafe-return
+  50:121  error  Unsafe member access .hours on an `error` typed value                                               @typescript-eslint/no-unsafe-member-access
+  69:31   error  Unsafe assignment of an error typed value                                                           @typescript-eslint/no-unsafe-assignment
+
+C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\Header.tsx
+  22:60  error  Unsafe call of a(n) `any` typed value                       @typescript-eslint/no-unsafe-call
+  22:72  error  Unsafe member access .toLocaleDateString on an `any` value  @typescript-eslint/no-unsafe-member-access
+  33:68  error  Unsafe member access .name on an `any` value                @typescript-eslint/no-unsafe-member-access
+  37:30  error  Unsafe assignment of an `any` value                         @typescript-eslint/no-unsafe-assignment
+  37:35  error  Unsafe member access .avatarUrl on an `any` value           @typescript-eslint/no-unsafe-member-access
+  38:30  error  Unsafe assignment of an `any` value                         @typescript-eslint/no-unsafe-assignment
+  38:35  error  Unsafe member access .name on an `any` value                @typescript-eslint/no-unsafe-member-access
+
+C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimeEntryModal.tsx
+   37:9   error  Unsafe assignment of an `any` value                                                                                                                                                                                                            @typescript-eslint/no-unsafe-assignment
+   37:37  error  Prefer using nullish coalescing operator (`??`) instead of a logical or (`||`), as it is a safer operator                                                                                                                                      @typescript-eslint/prefer-nullish-coalescing
+   38:13  error  Unsafe assignment of an `any` value                                                                                                                                                                                                            @typescript-eslint/no-unsafe-assignment
+   38:41  error  Prefer using nullish coalescing operator (`??`) instead of a logical or (`||`), as it is a safer operator                                                                                                                                      @typescript-eslint/prefer-nullish-coalescing
+   38:53  error  Unsafe member access [0] on an `any` value                                                                                                                                                                                                     @typescript-eslint/no-unsafe-member-access
+   38:60  error  Prefer using nullish coalescing operator (`??`) instead of a logical or (`||`), as it is a safer operator                                                                                                                                      @typescript-eslint/prefer-nullish-coalescing
+   46:5   error  Unsafe call of a(n) `error` type typed value                                                                                                                                                                                                   @typescript-eslint/no-unsafe-call
+   46:11  error  Unsafe member access .useEffect on an `error` typed value                                                                                                                                                                                      @typescript-eslint/no-unsafe-member-access
+   48:19  error  Unsafe argument of type `any` assigned to a parameter of type `FormData | { projectId?: string | undefined; taskId?: string | undefined; hours?: number | undefined; description?: string | undefined; } | ResetAction<FormData> | undefined`  @typescript-eslint/no-unsafe-argument
+   48:32  error  Prefer using nullish coalescing operator (`??`) instead of a logical or (`||`), as it is a safer operator                                                                                                                                      @typescript-eslint/prefer-nullish-coalescing
+   49:17  error  Unsafe assignment of an `any` value                                                                                                                                                                                                            @typescript-eslint/no-unsafe-assignment
+   49:45  error  Prefer using nullish coalescing operator (`??`) instead of a logical or (`||`), as it is a safer operator                                                                                                                                      @typescript-eslint/prefer-nullish-coalescing
+   49:57  error  Unsafe member access [0] on an `any` value                                                                                                                                                                                                     @typescript-eslint/no-unsafe-member-access
+   49:64  error  Prefer using nullish coalescing operator (`??`) instead of a logical or (`||`), as it is a safer operator                                                                                                                                      @typescript-eslint/prefer-nullish-coalescing
+   59:13  error  Unsafe assignment of an `any` value                                                                                                                                                                                                            @typescript-eslint/no-unsafe-assignment
+   59:31  error  Unsafe member access .id on an `any` value                                                                                                                                                                                                     @typescript-eslint/no-unsafe-member-access
+   59:34  error  Prefer using nullish coalescing operator (`??`) instead of a logical or (`||`), as it is a safer operator                                                                                                                                      @typescript-eslint/prefer-nullish-coalescing
+   60:13  error  Unsafe assignment of an `any` value                                                                                                                                                                                                            @typescript-eslint/no-unsafe-assignment
+   63:9   error  Unsafe call of a(n) `any` typed value                                                                                                                                                                                                          @typescript-eslint/no-unsafe-call
+   64:9   error  Unsafe call of a(n) `any` typed value                                                                                                                                                                                                          @typescript-eslint/no-unsafe-call
+   70:38  error  Unsafe assignment of an `any` value                                                                                                                                                                                                            @typescript-eslint/no-unsafe-assignment
+   70:55  error  Unsafe assignment of an `any` value                                                                                                                                                                                                            @typescript-eslint/no-unsafe-assignment
+   89:42  error  Unsafe assignment of an `any` value                                                                                                                                                                                                            @typescript-eslint/no-unsafe-assignment
+   99:44  error  Promise-returning function provided to attribute where a void return was expected                                                                                                                                                              @typescript-eslint/no-misused-promises
+  107:42  error  Unsafe call of a(n) `any` typed value                                                                                                                                                                                                          @typescript-eslint/no-unsafe-call
+  107:51  error  Unsafe member access .map on an `any` value                                                                                                                                                                                                    @typescript-eslint/no-unsafe-member-access
+  108:58  error  Unsafe assignment of an `any` value                                                                                                                                                                                                            @typescript-eslint/no-unsafe-assignment
+  108:60  error  Unsafe member access .id on an `any` value                                                                                                                                                                                                     @typescript-eslint/no-unsafe-member-access
+  108:71  error  Unsafe assignment of an `any` value                                                                                                                                                                                                            @typescript-eslint/no-unsafe-assignment
+  108:73  error  Unsafe member access .id on an `any` value                                                                                                                                                                                                     @typescript-eslint/no-unsafe-member-access
+  109:52  error  Unsafe member access .name on an `any` value                                                                                                                                                                                                   @typescript-eslint/no-unsafe-member-access
+  154:62  error  Unsafe call of a(n) `any` typed value                                                                                                                                                                                                          @typescript-eslint/no-unsafe-call
+  154:84  error  Unsafe member access .id on an `any` value                                                                                                                                                                                                     @typescript-eslint/no-unsafe-member-access
+  154:89  error  Unsafe call of a(n) `any` typed value                                                                                                                                                                                                          @typescript-eslint/no-unsafe-call
+  163:54  error  Unsafe assignment of an `any` value                                                                                                                                                                                                            @typescript-eslint/no-unsafe-assignment
+
+C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\components\TimesheetGrid.tsx
+  23:31  error  Unsafe argument of type `any` assigned to a parameter of type `string | number | Date`  @typescript-eslint/no-unsafe-argument
+  48:18  error  Unsafe call of a(n) `any` typed value                                                   @typescript-eslint/no-unsafe-call
+  48:27  error  Unsafe member access .map on an `any` value                                             @typescript-eslint/no-unsafe-member-access
+  49:42  error  Unsafe assignment of an `any` value                                                     @typescript-eslint/no-unsafe-assignment
+  49:50  error  Unsafe member access .id on an `any` value                                              @typescript-eslint/no-unsafe-member-access
+  52:82  error  Unsafe member access .color on an `any` value                                           @typescript-eslint/no-unsafe-member-access
+  53:96  error  Unsafe member access .name on an `any` value                                            @typescript-eslint/no-unsafe-member-access
+  58:35  error  Unsafe assignment of an `any` value                                                     @typescript-eslint/no-unsafe-assignment
+  58:43  error  Unsafe call of a(n) `any` typed value                                                   @typescript-eslint/no-unsafe-call
+  58:51  error  Unsafe member access .find on an `any` value                                            @typescript-eslint/no-unsafe-member-access
+  58:63  error  Unsafe member access .projectId on an `any` value                                       @typescript-eslint/no-unsafe-member-access
+  58:85  error  Unsafe member access .id on an `any` value                                              @typescript-eslint/no-unsafe-member-access
+  58:93  error  Unsafe member access .date on an `any` value                                            @typescript-eslint/no-unsafe-member-access
+  62:53  error  Unsafe member access .id on an `any` value                                              @typescript-eslint/no-unsafe-member-access
+  65:52  error  Unsafe return of a value of type `any`                                                  @typescript-eslint/no-unsafe-return
+  65:52  error  Unsafe call of a(n) `any` typed value                                                   @typescript-eslint/no-unsafe-call
+  65:82  error  Unsafe member access .id on an `any` value                                              @typescript-eslint/no-unsafe-member-access
+  76:99  error  Unsafe member access .hours on an `any` value                                           @typescript-eslint/no-unsafe-member-access
+  77:52  error  Unsafe member access .description on an `any` value                                     @typescript-eslint/no-unsafe-member-access
+  79:60  error  Unsafe member access .description on an `any` value                                     @typescript-eslint/no-unsafe-member-access
+
+C:\Antigravity\codeapps_test\TimesheetControl\TimesheetControl\src\hooks\useTimesheet.ts
+  26:21  error  Unsafe spread of an `any` value in an array         @typescript-eslint/no-unsafe-assignment
+  30:37  error  Unsafe return of a value of type error              @typescript-eslint/no-unsafe-return
+  30:39  error  Unsafe member access .id on an `error` typed value  @typescript-eslint/no-unsafe-member-access
+  30:59  error  Unsafe member access .id on an `error` typed value  @typescript-eslint/no-unsafe-member-access
+  34:42  error  Unsafe member access .id on an `error` typed value  @typescript-eslint/no-unsafe-member-access
+  40:9   error  Unsafe assignment of an error typed value           @typescript-eslint/no-unsafe-assignment
+
+笨・78 problems (78 errors, 0 warnings)
+[0m
